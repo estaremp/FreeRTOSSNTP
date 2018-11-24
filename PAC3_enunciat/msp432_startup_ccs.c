@@ -54,6 +54,7 @@ extern unsigned long __STACK_END;
 /* External declarations for the interrupt handlers used by the application. */
 extern void PORT2_IRQHandler(void);
 extern void EUSCIA0_IRQHandler(void);
+extern void EUSCIB1_IRQHandler(void);
 
 /* External declarations for the FreeRTOS interrupt handlers. */
 extern void xPortSysTickHandler( void );
@@ -103,7 +104,7 @@ void (* const interruptVectors[])(void) =
     defaultISR,                             /* EUSCIA2 ISR               */
     defaultISR,                             /* EUSCIA3 ISR               */
     defaultISR,                             /* EUSCIB0 ISR               */
-    defaultISR,                             /* EUSCIB1 ISR               */
+    EUSCIB1_IRQHandler,                     /* EUSCIB1 ISR               */
     defaultISR,                             /* EUSCIB2 ISR               */
     defaultISR,                             /* EUSCIB3 ISR               */
     defaultISR,                             /* ADC14 ISR                 */

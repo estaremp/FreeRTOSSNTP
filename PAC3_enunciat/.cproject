@@ -44,6 +44,8 @@
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compilerID.INCLUDE_PATH.11059163" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compilerID.INCLUDE_PATH" valueType="includePath">
 									<listOptionValue builtIn="false" value="${CCS_BASE_ROOT}/arm/include"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/driverslibPAC3}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/driverslibPAC3/ti_edu_boosterpack}"/>
 									<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/freertos/inc"/>
 									<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/freertos/cortex-m4"/>
 									<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/cc3100/board"/>
@@ -102,6 +104,37 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="com.ti.ccstudio.buildDefinitions.MSP432.Debug.1765602397.1291304273" name="rtc_c.c" rcbsApplicability="disable" resourcePath="driverslibPAC3/msp432/rtc_c.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.MSP432_18.1.exe.compilerDebug.353802262.140800264">
+						<tool id="com.ti.ccstudio.buildDefinitions.MSP432_18.1.exe.compilerDebug.353802262.140800264" name="ARM Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP432_18.1.exe.compilerDebug.353802262">
+							<option id="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compilerID.INCLUDE_PATH.1744593645" superClass="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compilerID.INCLUDE_PATH" valueType="includePath">
+								<listOptionValue builtIn="false" value="${CCS_BASE_ROOT}/arm/include"/>
+								<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/driverslibPAC3/msp432}"/>
+								<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/driverslibPAC3}"/>
+								<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/driverslibPAC3/ti_edu_boosterpack}"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/freertos/inc"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/freertos/cortex-m4"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/cc3100/board"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/cc3100/oslib"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/cc3100/simplelink"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/sensors"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/cc3100/simplelink/include"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/cc3100/simplelink/source"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/cmsis"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/sntp"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/inc"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/msp432"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/ti_cc3100_boosterpack"/>
+								<listOptionValue builtIn="false" value="${ORIGINAL_PROJECT_ROOT}/../driverslibPAC3/ti_msp432_launchpad"/>
+								<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+								<listOptionValue builtIn="false" value="${CCS_BASE_ROOT}/arm/include/CMSIS"/>
+							</option>
+							<inputType id="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__C_SRCS.1377286819" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__C_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__CPP_SRCS.92071399" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__CPP_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__ASM_SRCS.292360669" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__ASM_SRCS"/>
+							<inputType id="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__ASM2_SRCS.144856305" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.MSP432_18.1.compiler.inputType__ASM2_SRCS"/>
+						</tool>
+					</fileInfo>
 					<sourceEntries>
 						<entry excluding="lib/mqtt|freertos/msp430" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
